@@ -4,16 +4,74 @@
 <meta charset="UTF-8">
 <title>WEB DESIGN2</title>
 </head>
+	<style>
+		b{
+			color: crimson
+		}
+		
+		.th{background-color: darkgray}
+		
+		#Exercises{color: darkred}
+	
+	</style>
 
 <body>
-	<h1 style="color:red;">Basketball is Life</h1>
+	<h1 style="color:red; font-size: 50px">Basketball is Life</h1>
 	<img src="swoosh.jpg" alt="Basketball going through the net">
 		 
 	<hr>
-		<h2>Fundamentals</h2>
+	<h2 style="font-size: 20px"><a href="http://www.google.com">Fundamentals</a></h2>
+	
 	<img src="basketball_rack.jpg" alt="Basketball rack in gym">
-		<h3 title="List of drills">Drills</h3>
+		
+		<ul>
+			<li>Layups</li>
+			<li>Dribblimg</li>
+			<li>Shooting</li>
+			<li>Foul Shooting</li>
+			<li>Jumpshot</li>
+			<li>PAssing</li>
+			<li>Jabsteps</li>
+			<li>Triple threat position/Pivoting</li>
+</ul>
+	
+	
+		
+	<h3 title="List of drills"><a href="drills.html">Drills</a></h3>
+	
 	<img src="bb_court.jpg" alt="Basketball on gym court">
-	<p>Offensive <i>drills</i> should be practiced <b>daily</b>.</p>
+	
+<p>Offensive <i style="color: crimson">drills</i> should be practiced <b style="font-size: 20px">daily.</b></p>
+	
+	
+	
+<p id="Exercises;"><b>Exercises:</b></p>	
+	
+	<table style="width:60%; border: thin solid;">
+		<tr class="th" align="left">
+			<th id="Drill">Layups</th>
+			<th>Passing</th>
+			<th>Dibbling</th>
+		</tr>
+		
+		<tr>
+			<td>10-Right hand</td>
+			<td>10-Chest passes</td>
+			<td>1min-Right hand</td>
+		</tr>
+		<tr>
+			<td>10-Left hand</td>
+			<td>10-Bounce passes</td>
+			<td>1min-Left hand</td>
+		</tr>
+</table>
+		 
+	
+	
+	
+		
 </body>
+	<script>
+document.getElementById("Drill").innerHTML= "Layups";
+</script>
 </html>
